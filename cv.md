@@ -12,3 +12,30 @@
 ## About Me
 
 I am a versatile and curious learner with a background in film sound engineering, where I developed a keen ear for detail and a strong sense of storytelling through audio. Currently, I’m diving into the world of frontend development, combining my creative instincts with technical precision. I have a basic command of Figma for UI design and prototyping, and I enjoy exploring the intersection of design, code, and user experience.
+
+---
+
+## Skills
+
+- Git, GitHub  
+- Markdown  
+- HTML5, CSS3, JavaScript 
+- Figma, Adobe Photoshop  
+
+---
+
+## Code example
+
+```js
+function getPositivesCount(arr) {
+  return arr.filter((item) => item > 0 && typeof (item) === 'number').length;
+};
+
+---
+
+## Languages
+
+- Russian – Native  
+- English – Upper-Intermediate  
+- Belorusian – Intermediate   
+- Spanish – Basic

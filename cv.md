@@ -24,18 +24,18 @@ I am a versatile and curious learner with a background in film sound engineering
 
 ---
 
-## Code example
-
-```js
-function getPositivesCount(arr) {
-  return arr.filter((item) => item > 0 && typeof (item) === 'number').length;
-};
-
----
-
 ## Languages
 
 - Russian – Native  
 - English – Upper-Intermediate  
 - Belorusian – Intermediate   
 - Spanish – Basic
+
+---
+
+## Code example
+
+```js
+function getPositivesCount(arr) {
+  return arr.filter((item) => item > 0 && typeof (item) === 'number').length;
+};

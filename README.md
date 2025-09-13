@@ -1,1 +1,1 @@
-https://dolvyx.github.io/rsschool-cv/index.html
+https://dolvyx.github.io/rsschool-cv/

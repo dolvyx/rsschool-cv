@@ -5,39 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anton Rusilka</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header><h1>Anton Rusilka</h1></header>
-    <section class="contacts">
-        <h2>Contacts</h2>
-        <ul>
-            <li><span>Location:</span> Belarus</li>
-            <li><span>Email:</span> anrusilkoton@gmail.com</li>
-            <li><span>Telegram:</span> @equelzy</li>
-            <li href="https://github.com/dolvyx"><span>GitHub:</span> dolvyx</li>
-            <li><span>Discord:</span> @dolvyx</li>
-        </ul>
-    </section>
-    <section class="about">
-        <h2>About me</h2>
-        <p>I am a versatile and curious learner with a background in film sound engineering, where I developed a keen ear for detail and a strong sense of storytelling through audio. Currently, I’m diving into the world of frontend development, combining my creative instincts with technical precision. I have a basic command of Figma for UI design and prototyping, and I enjoy exploring the intersection of design, code, and user experience.</p>
-    </section>
-    <section>
-        <h2 class="skills">Skills</h2>
-        <ul>
-            <li>HTML5, CSS3, JavaScript</li>
-            <li>Figma, Adobe Photoshop</li>
-            <li>Git, GitHub</li>
-        </ul>
-    </section>
-    <section class="languages">
-        <h2>Languages</h2>
-        <ul>
-            <li>Russian - Native</li>
-            <li>English - Upper-Intermediate</li>
-            <li>Belarusian - Intermediate</li>
-        </ul>
-    </section>
+    <div class="wrapper">
+        <header>
+            <div class="header-text">
+                <h1>Anton Rusilka</h1>
+                <p>Frontend Developer</p>
+            </div>
+            <img src="avatar.jpg" alt="Anton Rusilka" class="photo">
+        </header>
+
+        <main>
+            <section class="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li><span>Location:</span> Belarus</li>
+                    <li><span>Email:</span> <a href="mailto:anrusilkoton@gmail.com">anrusilkoton@gmail.com</a></li>
+                    <li><span>Telegram:</span> <a href="https://t.me/equelzy" target="_blank">@equelzy</a></li>
+                    <li><span>GitHub:</span> <a href="https://github.com/dolvyx" target="_blank">dolvyx</a></li>
+                    <li><span>Discord:</span> @dolvyx</li>
+                </ul>
+            </section>
+
+            <section class="about">
+                <h2>About me</h2>
+                <p>I am a versatile and curious learner with a background in film sound engineering, where I developed a keen ear for detail and a strong sense of storytelling through audio. Currently, I’m diving into the world of frontend development, combining my creative instincts with technical precision. I have a basic command of Figma for UI design and prototyping, and I enjoy exploring the intersection of design, code, and user experience.</p>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>Figma, Adobe Photoshop</li>
+                    <li>Git, GitHub</li>
+                </ul>
+            </section>
+
+            <section class="code">
+                <h2>Code example</h2>
+                <pre><code>function getPositivesCount(arr) {
+  return arr.filter((item) => item &gt; 0 &amp;&amp; typeof (item) === 'number').length;
+}</code></pre>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Computer Science / Software Engineering student (currently studying)</li>
+                    <li>RS School — JS / FE Course (2026)</li>
+                </ul>
+            </section>
+
+            <section class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - Upper-Intermediate</li>
+                    <li>Belarusian - Intermediate</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <a href="https://github.com/dolvyx" target="_blank">GitHub</a>
+            <span>2026</span>
+            <a href="https://rs.school/courses/javascript-preschool" target="_blank">RS School</a>
+        </footer>
+    </div>
 </body>
 </html>
